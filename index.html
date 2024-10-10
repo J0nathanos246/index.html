@@ -32,7 +32,7 @@
       <script>
           var button = document.getElementById("colorbutton");
           function changeColor(){
-            var randomColor = "#"+ Math.floor(Math.random(0, 255)).toString(16);
+            var randomColor = "#"+ Math.floor(Math.random()*16777215).toString(16);
             button.style.backgroundColor = randomColor;
           }
           button.add.EventListener("click", changeColor);
