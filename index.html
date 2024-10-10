@@ -33,8 +33,9 @@
 
           function changeColor(){
             var randomColor = "#"+Math.floor(Math,random()*1677215).toString(16);
-            button.add.EventListener("click",changeColor);
+            button.style.backgroundColor = randomColor;
           }
+          button.add.EventListener("click",changeColor);
       </script>
   </body>
 </html>
