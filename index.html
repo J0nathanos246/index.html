@@ -26,5 +26,15 @@
   
   <body>
       <p>This will be a paragraph <br> This will be on a different line</p>
+
+      <button id="colorbutton"> Click me to change colour </button>
+      <script>
+          var button = document.getElementByld("colorbutton");
+
+          function changeColor(){
+            var randomColor = "#"+Math.floor(Math,random()*1677215).toString(16);
+            button.add.EventListener("click",changeColor);
+          }
+      </script>
   </body>
 </html>
